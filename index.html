@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
+	<meta name="theme-color" content="#317EFB" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="theme-color" content="#000000"/>
+	<meta name="theme-color" content="#000000" />
 	<meta name="Description" content="Author: Thorvald Aagaard, Resume, Master of Computer Science, Senior IT Architect">
 	<title>thorvald.dk</title>
 	<meta name="author" content="Thorvald Aagaard">
@@ -12,6 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
 	<div id="w">
 		<header class="clearfix">
@@ -24,7 +26,7 @@
 			</div>
 
 			<div id="photo">
-				<img src="images/Thorvald.jpg" alt="Thorvald Aagaard resume photo avatar"/>
+				<img src="images/Thorvald.jpg" alt="Thorvald Aagaard resume photo avatar" />
 			</div>
 		</header>
 
@@ -79,7 +81,8 @@
 						<p>2002 - 7N /Aalborg Data ApS </p>
 					</th>
 					<td>
-						<p> Depending of the customers need I have been working as Architect, Developer, Project manager, Test manager, Business analyst and whatever was needed.<br /><br />
+						<p> Depending of the customers need I have been working as Architect, Developer, Project manager, Test manager,
+							Business analyst and whatever was needed.<br /><br />
 
 							At Tryg I was working as a solution achitect on 4 different projects<br /><br />
 
@@ -357,6 +360,13 @@
 		</section>
 
 	</div>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker
+				.register('/sw.js')
+				.then(function () { console.log("Service Worker Registered"); });
+		}
+	</script>
 </body>
 
 </html>

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);
+
 @media only screen and (max-width: 740px) {
 	h1 { font-size: 4.5em; }
 	h3 { font-size: 2.2em; }
@@ -11,8 +13,6 @@
 	#w { padding: 20px 15px; }
 	p { padding: 0; }
 }
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);
 
 @media only screen and (max-width: 570px) {
 	ul li {
