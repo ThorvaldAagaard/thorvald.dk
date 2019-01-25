@@ -12,6 +12,8 @@
 	p { padding: 0; }
 }
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);
+
 @media only screen and (max-width: 570px) {
 	ul li {
 		display: inline-block; 
@@ -41,9 +43,9 @@
 * { margin: 0; padding: 0; }
 html { height: 101%; }
 body { background: #f2f2f2 url('images/bg-tile.png'); font-size: 62.5%; padding-bottom: 65px; 
-
-    margin-left: auto;
-    margin-right: auto;
+  font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial';
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 { font-family: "Robotto", "Trebuchet MS", Arial, sans-serif; color: #454545; font-size: 3.6em; margin-bottom: 6px; }
