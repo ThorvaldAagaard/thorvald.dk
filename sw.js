@@ -8,6 +8,8 @@ self.addEventListener('install', function (e) {
                 '/images/Thorvald.jpg',
                 '/images/bullet.png',
                 '/images/bg-tile.png',
+                '/images/icons-192.png',
+                '/images/icons-512.png',
             ]);
         })
     );
