@@ -110,6 +110,6 @@ table p {
 th {
   width: 30%
 }
-tr {
+td {
   width: 70%; /* Not necessary, since only 70% width remains */
 }
