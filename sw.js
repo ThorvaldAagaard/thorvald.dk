@@ -1,10 +1,10 @@
 self.addEventListener('install', function (event) {
-  console.log("install");
+  //console.log("install");
   try {
     //console.log('typeof System in install', typeof System);
   } catch (e) { }
 
-  console.log('caching');
+  //console.log('caching');
   event.waitUntil(
     caches.open('thorvald').then(function (cache) {
       //console.log('caching - getting');
