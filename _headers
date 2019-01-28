@@ -6,4 +6,4 @@
  Cache-Control: must-revalidate, no-cache, no-store, pre-check=0, post-check=0, max-age=0, s-maxage=0
  Expires: 0
  Pragma: no-cache
- Content-Security-Policy: script-src 'unsafe-inline' worker-src https://www.thorvald.dk/
+ Content-Security-Policy: script-src 'unsafe-inline'; worker-src https://www.thorvald.dk/
